@@ -18,7 +18,7 @@ ${props.done === true ? '✓' : ''}
 //seznam ukolu
 const renderTasks = (data) => {
   const tasks = document.querySelector('.todo__tasks');
-  tasks.innerHTML = data.map((item) => Task(item));
+  tasks.innerHTML = data.map((item) => Task(item)).join();
 };
 
 //fetch data
