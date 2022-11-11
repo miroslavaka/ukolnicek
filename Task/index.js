@@ -1,13 +1,13 @@
-export //komponenta pro jeden ukol
-const Task = (props) => {
+export const Task = (props) => {
+  const { name, due, done } = props;
   return `
 <div class="task">
 <div class="task__body">
-  <div class="task__name">${props.name}</div>
-  <div class="task__due">${props.due}</div>
+  <div class="task__name">${name}</div>
+  <div class="task__due">${due}</div>
 </div>
 <div class="task__done">
-${props.done === true ? '✓' : ''}
+${done === true ? '✓' : ''}
 </div>
 </div>
 `;

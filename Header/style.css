@@ -1,0 +1,24 @@
+.date {
+  display: flex;
+  align-items: center;
+}
+
+.date__daynum {
+  flex: 0;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.date__monthyear {
+  flex: 1;
+  margin-left: 0.25rem;
+}
+
+.date__month {
+  font-weight: bold;
+  line-height: 1.1rem;
+}
+
+.date__year {
+  line-height: 1.1rem;
+}

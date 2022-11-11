@@ -31,31 +31,6 @@ body {
   padding: 1rem 2rem;
 }
 
-.date {
-  display: flex;
-  align-items: center;
-}
-
-.date__daynum {
-  flex: 0;
-  font-size: 2.5rem;
-  font-weight: 900;
-}
-
-.date__monthyear {
-  flex: 1;
-  margin-left: 0.25rem;
-}
-
-.date__month {
-  font-weight: bold;
-  line-height: 1.1rem;
-}
-
-.date__year {
-  line-height: 1.1rem;
-}
-
 .date__dayname {
   flex: 0;
 }
@@ -87,27 +62,4 @@ body {
   margin-left: 0.5rem;
   padding: 0 0.75rem;
   outline: none;
-}
-
-.task {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.5rem 2rem;
-  padding-bottom: 0.5rem;
-}
-
-.task:not(:last-child) {
-  border-bottom: 1px solid #ddd;
-}
-
-.task__done {
-  font-size: 150%;
-  font-weight: bold;
-}
-
-.task__due {
-  margin-top: 0.25rem;
-  color: #777;
-  font-size: 0.8rem;
 }
